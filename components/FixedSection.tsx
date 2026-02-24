@@ -16,16 +16,16 @@ function FixedSection() {
             <h1 className="text-6xl font-bold uppercase text-black">get started</h1>
             <nav className="max-w-[90%] w-full mx-auto self-end">
                 <ul className="flex flex gap-4 text-black">
-                    <li className="text-2xl font-bold uppercase flex-1">
+                    <li className="text-lg font-bold uppercase flex-1">
                         <a href="#">Home</a>
                     </li>
-                    <li className="text-2xl font-bold uppercase">
+                    <li className="text-lg font-bold uppercase">
                         <a href="#">About</a>
                     </li>
-                    <li className="text-2xl font-bold uppercase">
+                    <li className="text-lg font-bold uppercase">
                         <a href="#">Services</a>
                     </li>
-                    <li className="text-2xl font-bold uppercase">
+                    <li className="text-lg font-bold uppercase">
                         <a href="#">Contact</a>
                     </li>
                 </ul>
