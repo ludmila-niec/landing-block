@@ -1,3 +1,4 @@
+import Navbar from "./Navbar";
 function FixedSection() {
     return (
         <div className="hidden lg:flex items-center h-full flex-col p-13 z-10 fixed w-[50vw] h-screen bg-white mix-blend-screen justify-between">
@@ -14,22 +15,7 @@ function FixedSection() {
                 </svg>
             </div>
             <h1 className="text-6xl font-bold uppercase text-black">get started</h1>
-            <nav className="max-w-[90%] w-full mx-auto self-end">
-                <ul className="flex flex gap-4 text-black">
-                    <li className="text-lg font-bold uppercase flex-1">
-                        <a href="#">Home</a>
-                    </li>
-                    <li className="text-lg font-bold uppercase">
-                        <a href="#">About</a>
-                    </li>
-                    <li className="text-lg font-bold uppercase">
-                        <a href="#">Services</a>
-                    </li>
-                    <li className="text-lg font-bold uppercase">
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </nav>
+            <Navbar />
         </div>
     );
 }
