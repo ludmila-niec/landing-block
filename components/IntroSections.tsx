@@ -60,7 +60,7 @@ function IntroSections() {
                 <div className="interactive" ref={interactiveRef}></div>
             </div>
             <div className="w-1/2 h-full p-13 flex flex-col justify-end z-10 absolute bottom-0 right-0">
-                <h1 className="text-4xl font-bold uppercase text-white indent-13 leading-none bg-white/10">RELEVANT IDEAS AND BOLD ACTIONS TO GENERATE THE MOMENTUM THAT PROPELS YOUR BRAND FORWARD.</h1>
+                <h1 className="text-4xl font-bold uppercase text-white indent-13 leading-none bg-white/10 max-w-[80%] 2xl:text-6xl">RELEVANT IDEAS AND BOLD ACTIONS TO GENERATE THE MOMENTUM THAT PROPELS YOUR BRAND FORWARD.</h1>
             </div>
         </div>
     );

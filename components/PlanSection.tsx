@@ -38,12 +38,12 @@ function PlanSection() {
         <div ref={sectionRef} className="w-full h-[100vh] bg-white flex">
             <div className="w-1/2 h-full bg-black"></div>
             <div className="w-1/2 h-full bg-white text-black p-13 flex flex-col justify-between">
-                <h2 ref={headingRef} className="text-[100px] font-bold uppercase  leading-none mt-14 text-center">
+                <h2 ref={headingRef} className="text-[100px] font-bold uppercase leading-none mt-14 text-center 2xl:text-[180px]">
                     Bespoke <br /> strategy <br /> support
                 </h2>
-                <div>
-                    <h3 className="text-2xl font-bold uppercase mt-14">A simple game plan — but never simplistic.</h3>
-                    <p className="text-md mt-14">No buzzwords. No 300-slide decks. We build a clear, structured strategic framework tailored to your reality, with creative solutions that are smart — and doable.</p>
+                <div className="max-w-3xl">
+                    <h3 className="text-2xl font-bold uppercase mt-14 2xl:text-4xl">A simple game plan — but never simplistic.</h3>
+                    <p className="text-md mt-14 2xl:text-2xl">No buzzwords. No 300-slide decks. We build a clear, structured strategic framework tailored to your reality, with creative solutions that are smart — and doable.</p>
                 </div>
             </div>
         </div>
