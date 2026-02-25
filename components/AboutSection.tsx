@@ -49,10 +49,10 @@ function AboutSection() {
         <div ref={sectionRef} className="w-full h-[100vh] bg-white flex">
             <div className="w-1/2 h-full bg-black"></div>
             <div className="w-1/2 h-full bg-black text-white p-13">
-                <h2 ref={headingRef} className="text-4xl font-bold uppercase leading-none mt-14 2xl:text-6xl">
+                <h2 ref={headingRef} className="text-4xl font-bold uppercase leading-none mt-14 4k:text-6xl">
                     WE PUT STRATEGIC RELEVANCE IN SERVICE OF CREATIVE INSPIRATION.
                 </h2>
-                <p ref={paragraphRef} className="text-2xl mt-14 max-w-[70%] mx-auto 2xl:text-4xl">
+                <p ref={paragraphRef} className="text-2xl mt-14 max-w-[70%] mx-auto 4k:text-4xl">
                     We believe that thinking with clarity and relevance is what enables bold action — and builds brands that truly resonate. Whether in brand strategy or communication, we craft strategic foundations built on relevant insights and distinctive ideas.
                     The result: strategies that spark action, stimulate reflection, and generate real impact aligned with your business ambitions.
                 </p>

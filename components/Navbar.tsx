@@ -17,22 +17,22 @@ function Navbar() {
     return (
         <nav className="w-[90%] max-w-3xl w-full mx-auto self-end">
             <ul className="flex justify-between gap-4 text-black overflow-hidden">
-                <li className="text-sm font-bold uppercase 2xl:text-lg">
+                <li className="text-sm font-bold uppercase 4k:text-lg">
                     <a href="#" className="overflow-hidden inline-block" onMouseEnter={handleEnter} >
                         <span className="block">Home</span>
                     </a>
                 </li>
-                <li className="text-sm font-bold uppercase 2xl:text-lg">
+                <li className="text-sm font-bold uppercase 4k:text-lg">
                     <a href="#" className="overflow-hidden block" onMouseEnter={handleEnter} >
                         <span className="block">About</span>
                     </a>
                 </li>
-                <li className="text-sm font-bold uppercase 2xl:text-lg">
+                <li className="text-sm font-bold uppercase 4k:text-lg">
                     <a href="#" className="overflow-hidden block" onMouseEnter={handleEnter} >
                         <span className="block">Services</span>
                     </a>
                 </li>
-                <li className="text-sm font-bold uppercase 2xl:text-lg">
+                <li className="text-sm font-bold uppercase 4k:text-lg">
                     <a href="#" className="overflow-hidden block" onMouseEnter={handleEnter} >
                         <span className="block">Contact</span>
                     </a>

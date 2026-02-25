@@ -19,6 +19,7 @@
   --color-interactive: var(--color-interactive);
   --circle-size: var(--circle-size);
   --blending: var(--blending);
+  --breakpoint-\34k: 3840px;
 }
 
 @media (prefers-color-scheme: dark) {
